@@ -9,7 +9,6 @@ export default function App() {
     <NavigationContainer>
       <ZoomVideoSdkProvider
         config={{
-          appGroupId: 'group.io.yoky.tag',
           domain: 'zoom.us',
           enableLog: true,
         }}>
